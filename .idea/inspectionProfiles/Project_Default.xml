@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E265" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.visitor_name" />
+          <option value="main.visitor_id" />
+          <option value="unittest.test" />
+          <option value="main.known_names" />
+          <option value="main.known_face_encodings_list" />
+          <option value="datetime.date.today" />
+          <option value="firebase_ini" />
+          <option value="xlwrite" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

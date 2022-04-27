@@ -1,0 +1,18 @@
+{% extends "base.html"%} {% block head%} {{ super() }}
+<link
+      href="{{ url_for('static', filename='extended_beauty.css') }}"
+      rel="stylesheet"
+/>
+{% endblock %} {% block content %}
+
+<h1></h1>
+<center>
+    <img src="{{ url_for('static', filename='images/lungs.jpeg') }}" alt="lung" height="550px" width="520px"/>
+</center>
+
+<center>
+    <h3>Welcome to the Pneumonia Detection System using chest X-ray!!!</h3>
+</center>
+
+
+{% endblock %}
